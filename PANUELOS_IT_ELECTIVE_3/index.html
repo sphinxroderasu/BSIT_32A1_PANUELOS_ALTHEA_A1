@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="bg-primary text-white text-center py-4">
+        <h1>Althea Marie S. Panuelos</h1>
+        <p>BSIT Student | Section 32A1</p>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="container my-5 text-center">
+        <h2>Home</h2>
+        <p>My Name is Althea Panuelos from BSIT 32A1 at Lyceum of Alabang.</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container my-5">
+        <h2>About</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Education</h4>
+                <p>Currently studying at Lyceum of Alabang BSIT 32A1 to learn about Software Development, Database etc.</p>
+            </div>
+            <div class="col-md-6">
+                <h4>School Activities</h4>
+                <ul>
+                    <li>E-Commerce Track in Senior High</li>
+                    <li>Currently, i dont involved in any extracurricular activities. Because i want to focus my time to my studies and to myself.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Skills</h4>
+                <ul>
+                    <li>Microsoft (Word, Excel, Powerpoint)</li>
+                    <li>Visual Basic</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container my-5">
+        <h2>Contact Me</h2>
+        <form action="#" method="post" id="contact-form">
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="subject" class="form-label">Subject</label>
+                <input type="text" class="form-control" id="subject" name="subject" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; Althea Panuelos | 2024-2025</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
